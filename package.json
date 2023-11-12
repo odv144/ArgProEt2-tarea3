@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://odv144.github.io/ArgProEt2-tarea3/",
+  
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run dist",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
