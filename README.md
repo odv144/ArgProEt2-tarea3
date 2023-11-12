@@ -1,8 +1,10 @@
-# React + Vite
+Actividad 3 para el curso de UTN de Argentina Programa 4.0 2023 de REACT
+El proyecto se puede ver deployado en la siguiente ruta Actividad3 Si se clona el repositorio de forma local ingrese a la carpte donde se encuentra el archivo package.json y luego corra el siguiente comando en la terminal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm start
+Con ese comando correra la aplicacion en modo desarrollo y se abrira un navegador con la siguiente ruta
 
-Currently, two official plugins are available:
+http://localhost:3000 para que inspeccione la aplicacion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+De todas maneras se deja capturas para que pueda apreciar el proyecto sin mas inconvenientes
+Texto alternativo Desarrollado por Omar Dario Virili
