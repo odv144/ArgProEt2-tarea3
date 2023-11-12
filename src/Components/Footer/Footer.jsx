@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <Box as='footer' m='auto 0'>
+    <Box as='footer' display='block' textAlign='center'>
         <Text color='#fff' size='1.2em' p='10px'>Argentina Programa Trabajo Practico Unidad 3</Text>
     </Box>
   )

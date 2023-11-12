@@ -5,7 +5,7 @@ import React from 'react'
 
 const Header = props => {
   return (
-    <Box as='header' w='90vw' >
+    <Box as='header'display='block' >
         <Box display='flex' flexDirection='row' justifyContent='space-evenly' m='10px' verticalAlign='center' >
           <Image src={logo} alt='Sin Imagen' w='150px'
             fallbackSrc='https://via.placeholder.com/150'
@@ -22,9 +22,9 @@ const Header = props => {
                 >COMPUSHOP</Text>
         </Box>
         <Box as='nav' bg='gray' display='flex' justifyContent='space-around' m='15px 0' >
-            <Link href='/' bg='#1f1f1f' p='10px' color='#fff' >Home</Link>
-            <Link href='/' bg='#1f1f1f' p='10px' color='#fff'>Productos</Link>
-            <Link href='/' bg='#1f1f1f' p='10px' color='#fff'>About</Link>
+            <Link href='/'  bgGradient='linear(to-b,#2B6CB0, #000)' p='10px' color='#fff' m='5px' borderRadius='10px' >Home</Link>
+            <Link href='/' bgGradient='linear(to-b,#2B6CB0, #000)' p='10px' color='#fff' m='5px' borderRadius='10px' >Productos</Link>
+            <Link href='/'  bgGradient='linear(to-b,#2B6CB0, #000)' p='10px' color='#fff' m='5px' borderRadius='10px' >About</Link>
         
         </Box>
     </Box>

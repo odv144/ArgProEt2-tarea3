@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import {
   Card,
   CardBody,
@@ -23,22 +24,22 @@ const Unico = ({
   img,
 }) => {
   return (
-    <Card maxW="sm" m='15px'bg='lineal-gradient(black,white)'> 
-      <CardBody >
+    <Card maxW="sm" m='15px'  bg='none'  border='none' boxShadow='none'> 
+      <CardBody border='none' >
         <Image
           src={img}
           alt="Imagen del producto no disponible"
           borderRadius="lg"
         />
         <Stack mt="6" spacing="3">
-          <Heading size="md">{nombre}</Heading>
-          <Text>{descripcion}</Text>
-          <Text color="blue.600" fontSize="2xl">
+          <Heading size="md" textAlign='center' textShadow='2px 2px 10px #000' color='white' >{nombre}</Heading>
+          <Text color='white' fontWeight='bold'>{descripcion}</Text>
+          <Text color="blue.600" textAlign='center' textShadow='1px 1px 2px #1cfffb' fontSize="2xl" >
             {precio}
           </Text>
         </Stack>
       </CardBody>
-      <Divider />
+    
       <CardFooter>
         <ButtonGroup spacing="2">
           <Button variant="solid" colorScheme="blue">
