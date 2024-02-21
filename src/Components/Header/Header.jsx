@@ -1,3 +1,4 @@
+import NavBar from '../NavBar.jsx/NavBar'
 import './Header.css'
 import logo from './logo.jpg'
 import { Box, Image, Link, Text } from '@chakra-ui/react'
@@ -27,6 +28,7 @@ const Header = props => {
             <Link href='/'  bgGradient='linear(to-b,#2B6CB0, #000)' p='10px' color='#fff' m='5px' borderRadius='10px' >About</Link>
         
         </Box>
+        <NavBar/>
     </Box>
   )
 }
